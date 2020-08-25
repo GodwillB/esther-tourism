@@ -1,0 +1,242 @@
+/*
+Godwill Barasa - CodeWill
+
+
+Legibra
+
+October, 2018
+*/
+
+/* Fonts 
+================*/
+@font-face {
+    font-family:Lucida Sans Regular;
+    src: url("fonts/Lucida-Sans-Regular.otf");
+}
+@font-face {
+    font-family:Lucida Sans Italics;
+    src: url("fonts/Lucida-Sans-Demibold-Italic.otf");
+}
+@font-face {
+    font-family:Lucida Sans Roman;
+    src: url("fonts/Lucida-Sans-Demibold-Roman.otf");
+}
+
+.italics-font{
+     font-family:Lucida Sans Italics !important;
+}
+.regular-font{
+     font-family:Lucida Sans Regular !important;
+}
+.roman-font{
+    font-family:Lucida Sans Roman !important;
+}
+
+/*
+=================
+ General Styling
+=================
+*/
+body{
+	width: 100%;
+    overflow-x: hidden;
+        font-family:Lucida Sans Regular !important;
+}
+.text-brown{
+	color:  #412001;
+}
+.brown-shade{
+	background-color: #412001; 
+}
+.green-shade{
+    background-color: #42f44e;
+}
+.text-green{
+    color: #42f44e;
+}
+.crazy-padding{
+    padding: 9rem!important;
+}
+.card-padding{
+    padding-top: 10rem;
+}
+.form-control{
+    border: none;
+    border-bottom: 1px solid #412001;
+    border-radius: 0px;
+}
+/* mouse over link */
+a:active{
+    color: green !important;
+    text-decoration: underline;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    color: green;
+}
+.owl-theme .owl-dots .owl-dot span{
+    background-color: white;
+}
+
+/* Intro Section 
+===================*/
+.guider-intro{
+    background: url(assets/images/sunset.jpg) no-repeat fixed;
+    background-size: cover;
+}
+.guide-scroller{
+   position: absolute;
+    bottom: 0;
+    z-index: 99;
+    font-size: 16px;
+    font-weight: bolder;
+    right: 50%;
+}
+
+.half-day .card-img{
+    min-height: 350px;
+    max-height: 350px;
+}
+
+.over-night .img-fluid{
+    min-height: 300px;
+}
+.intro-header .item{
+    height: 100vh;
+}
+
+/*Owl-1
+------------*/
+.owl-1 .owl-dots{
+    top: 50%;
+    position: absolute;
+    transform: rotate(90deg);
+    bottom: 50%
+}
+.owl-1 .owl-dots button{
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    margin: 7px;
+    padding: 1px 1px 1px 1px;
+   height: 28px;
+
+}
+.owl-1 .owl-nav{
+    position: absolute;
+    font-size: 42px;
+    color: white;
+    bottom: 30%;
+    transform: translate(0, -50%);
+    /* top: 206px; */
+    right: 13px;
+    z-index: 999999;
+    display: inline-grid;
+}
+.owl-1 .owl-nav button{
+    background-color: white !important;
+    color: black !important;
+    height: 50px;
+    width: 50px;
+}
+.owl-prev span{
+    position: relative;
+    bottom: 8px;
+}
+.owl-next span{
+    position: relative;
+    bottom: 8px;
+}
+
+/*======
+  Nav
+========*/
+
+.guider-nav .nav-link{
+    color: white !important;
+
+}
+ .navbar-expand-lg .navbar-nav .nav-link{
+    color: #412001 ;
+    font-size: 18px;
+    font-family:Lucida Sans Regular !important;
+}
+.guider-nav{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+h3{
+    font-size: 20px;
+    font-family:Lucida Sans Roman !important;
+}
+.nav-item{
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.navbar-brand .img-fluid{
+   height: 75px;
+}
+
+.full-day .card .img-fluid{
+    height: 50vh;
+    object-fit: cover;
+}
+/*
+===========
+ Homepage
+===========
+*/
+.fa-search{
+	font-size: 23px;
+}
+.overlay-header{
+	top: 50%;
+    position: absolute;
+    transform: translate(0, -50%);
+    color: white;
+    z-index: 999;
+    margin-left: 115px;
+    width: 70%!important;
+
+}
+/*Section(s)
+--------------*/
+.guide-intro{
+	line-height: 35px;
+}
+.guide-intro p{
+/*    font-size: 25px;*/
+}
+.tours-intro{
+	line-height: 35px;
+}
+.guider-side{
+	min-height: 620px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.card{
+	border-top: none;
+	border-bottom: none;
+}
+.guide-preview .card-img{
+	min-height: 60vh;
+	object-fit: cover;
+    max-height: 60vh;
+}
+.patner-guide{
+	background-color: #412001;
+}
+.guide-contact{
+    padding: 90px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+footer{
+    background-color: #f7f7f7;
+}
+

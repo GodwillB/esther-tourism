@@ -1,0 +1,197 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  footer p{
+    padding-top: 3rem!important;
+}
+  }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .guide-scroller{
+    display: none;
+  }
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .guide-scroller{
+    display: none;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /.guide-scroller{
+    display: none;
+  }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .guide-scroller{
+    display: none;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+.intro-header .item {
+    height: auto;
+}
+.half-day .card-img {
+    min-height: 400px;
+    margin-bottom: 40px !important;
+}
+.owl-dots{
+  display: none;
+}
+.owl-nav{
+  display: none;
+}
+.owl-1 .img-fluid{
+  height: 100vh;
+  object-fit: cover;
+}
+.overlay-header{
+  margin: 0px;
+      top: 36%;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+.tours-intro{
+  padding: 40px;
+}
+.guide-intro{
+  text-align: center;
+  line-height: 42px;
+}
+.card{
+  margin-bottom: 10px;
+}
+.owl-2 .owl-item{
+  padding: 40px;
+}
+.guide-let{
+  padding-left: 10px !important;
+  text-align: center;
+}
+.full-day p, h2{
+  padding: 0px;
+}
+.full-day p{
+  padding: 0px;
+  font-size: 14px;
+}
+footer{
+  padding-top: 0px !important;
+}
+footer h1{
+  padding: 40px;
+  padding-bottom: 0px !important;
+}
+footer h5{
+  font-size: 16px;
+}
+
+form .pt-5{
+  padding-top: 0px !important;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+  font-family:Lucida Sans Regular !important;
+}
+.guider-nav{
+  position: relative;
+  background-color: #412001;
+}
+.intro-header{
+  position: relative;
+}
+.navbar-toggler{
+  color: white !important;
+}
+.guide-scroller {
+    position: absolute;
+    bottom: 30px;
+    z-index: 99;
+    font-size: 16px;
+    font-weight: bolder;
+    right: 50%;
+    display: none;
+}
+footer{
+  padding: 3px;
+}
+footer h1{
+  font-size: 17px;
+  text-align: center;
+  text-transform: capitalize!important;
+}
+
+ footer p{
+  font-size: 14px;
+  }
+
+  .guide-intro h3{
+    font-size: 30px;
+
+  }
+  .fa-bars{
+    color: #412001;
+  }
+  .guide-intro{
+    padding: 0px !important;
+    text-align: justify;
+  }
+  .guide-preview{
+    background-color:#412001; 
+  }
+  .guide-tours p{
+    font-size: 20px;
+  }
+  .guide-contact{
+    padding: 25px;
+  }
+
+
+
+
+
+  
+}
